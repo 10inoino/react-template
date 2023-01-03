@@ -1,11 +1,11 @@
 services:
-  sentence-diff:
+  react-template:
     build:
       context: .
       dockerfile: Dockerfile
     command: /bin/sh -c "while sleep 1000; do :; done"
     volumes:
       - ../:/workspaces
-      - sentence-diff-volume:/workspaces/node_modules
+      - react-template-volume:/workspaces/node_modules
 volumes:
-  sentence-diff-volume:
+  react-template-volume:

@@ -1,7 +1,7 @@
 {
-	"name": "sentence-diff",
+	"name": "react-template",
 	"dockerComposeFile": "docker-compose.yml",
-	"service": "sentence-diff",
+	"service": "react-template",
 	"workspaceFolder": "/workspaces",
 	"settings": {},
 	"extensions": [
